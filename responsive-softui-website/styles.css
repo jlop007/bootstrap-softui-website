@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Variables*/
+:root{
+    --background-color: linear-gradient(120deg, #37393b, #2e3032);
+    --light-font-color: #b9bbc2;
+    --shadow-normal:
+            7px 5px 10px #2b2d2f,
+            -7px -5px 10px #3b3d3f;
+    --shadow-inset:
+            inset 7px 5px 10px #2b2d2f,
+            inset -7px -5px 10px #3b3d3f;
+    --shadow-normal-light:
+            7px 5px 10px rgba(0,0,0,.1),
+            -7px -5px 10px rgba(255, 255, 255, 0.5);
+    --shadow-inset-light:
+            inset 7px 5px 10px rgba(0,0,0,.1),
+            inset -7px -5px 10px rgba(255, 255, 255, 0.5);;
+}
